@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import Input from '../../components/UI/Input/Input';
 import Button from '../../components/UI/Button/Button';
-import classes from './Auth.css';
+import classes from './Auth.module.css';
 import * as actions from '../../store/actions/index.action';
 import { connect } from 'react-redux';
 import Spinner from '../../components/UI/Spinner/Spinner';
